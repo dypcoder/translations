@@ -1,13 +1,12 @@
-原文链接：[A generic input/output API in Java](http://www.jroller.com/rickard/entry/a_generic_input_output_api) - [Rickard Öberg](http://www.jroller.com/rickard/)  
+原文链接：[A generic input/output API in Java](https://dzone.com/articles/generic-inputoutput-api-java) - _Rickard Öberg_ （PS：[文章原始链路](http://www.jroller.com/rickard/entry/a_generic_input_output_api)已失效）  
 译文发在：[【译】Java的通用I/O API](http://oldratlee.com/474/tech/java/generic-io-api-in-java-and-api-design.html)，2012-05-11
 
-### :apple: 译序
+## 🍎 译序 
 
-原文[A generic input/output API in Java](http://www.jroller.com/rickard/entry/a_generic_input_output_api)(by Rickard Öberg)中给出了一个通用`Java` `IO` `API`设计，并且有`API`的`Demo`代码。
+本文给出了一个通用`Java` `IO` `API`设计，并且有`API`的`Demo`代码。
 
-更重要的是，这篇文章给出了这个`API`设计本身的步骤和过程，这让`API`设计有些条理。
-文中示范了从 普通简单实现 整理成 正交分解、可复用、可扩展、高性能、无错误的`API`设计 的过程。
-这个很值得理解和学习！
+更重要的是给出了这个`API`设计本身的步骤和过程，这让`API`设计有些条理。
+文中示范了从 普通简单实现 整理成 正交分解、可复用、可扩展、高性能、无错误的`API`设计 的过程，这个过程是很值得理解和学习！
 
 设计偏向是艺术，一个赏心悦目的设计，尤其是`API`设计，旁人看来多是妙手偶得的感觉，如果能有些章可循真是一件美事。
 
@@ -20,11 +19,11 @@
 
 
 - [`Java`的通用`I/O` `API`设计](#java%E7%9A%84%E9%80%9A%E7%94%A8io-api%E8%AE%BE%E8%AE%A1)
-  - [API](#api)
-  - [标准化`I/O`](#%E6%A0%87%E5%87%86%E5%8C%96io)
-  - [拦截传输过程](#%E6%8B%A6%E6%88%AA%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B)
-  - [Usage in the `Qi4j` `SPI`](#usage-in-the-qi4j-spi)
-  - [结论](#%E7%BB%93%E8%AE%BA)
+    - [API](#api)
+    - [标准化`I/O`](#%E6%A0%87%E5%87%86%E5%8C%96io)
+    - [拦截传输过程](#%E6%8B%A6%E6%88%AA%E4%BC%A0%E8%BE%93%E8%BF%87%E7%A8%8B)
+    - [Usage in the `Qi4j` `SPI`](#usage-in-the-qi4j-spi)
+    - [结论](#%E7%BB%93%E8%AE%BA)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -224,6 +223,10 @@ Usage in the `Qi4j` `SPI`
 
 这遍文章仅仅勾勒了这种使用方式，`API`和辅助类可以在`Qi4j Core 1.3-SNAPSHOT`中有（详见`Qi4j`的[主页](http://www.qi4j.org/)）。理想状态是，在整个`Qi4j`使用中任何使用`I/O`的地方一开始按这种方式来。
 
+> 【译注】`Qi4j`已经更名为`polygene`，在`Apache`上
+> - 官网 https://polygene.apache.org/
+> - GitHub仓库： https://github.com/apache/polygene-java
+
 多谢你的阅读，希望你能有所收获 :-)
 
 **-EOF-**
@@ -237,6 +240,5 @@ Usage in the `Qi4j` `SPI`
 - 典型的使用方式。
 
 没有给出实现细节，看起来可能比较费力。（细致的分解后的设计往往比较抽象，不容易快速理解），
-我实现了[完整工程的Demo代码](https://github.com/oldratlee/io-api)，并写了一篇[简单分析](https://github.com/oldratlee/io-api/wiki/java-api-design-exercise)。
+我实现了[完整工程的Demo代码](https://github.com/oldratlee/io-api)，并写了一篇[简单分析](https://github.com/oldratlee/io-api/blob/master/docs/java-api-design-exercise.md)。
 
-更多资料参见[这里](https://github.com/oldratlee/io-api/wiki)。

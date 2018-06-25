@@ -13,7 +13,7 @@ Chinese translations for classic IT resources.
 遵循原则：『信』为本、力求『达』、不妄追『雅』。  
 \# 信：译文忠实表达作者思想；达：让读者轻松地阅读；雅：让读者愉悦地阅读。详见[信达雅 - 百度百科](http://baike.baidu.com/view/645992.htm)。
 
-- :see_no_evil: [自己](http://weibo.com/oldratlee)理解粗浅，翻译中不足和不对之处，欢迎 :clap:
+- 🙈 [自己](http://weibo.com/oldratlee)理解粗浅，翻译中不足和不对之处，欢迎 👏
     - 建议，[提交`Issue`](https://github.com/oldratlee/translations/issues/new)
     - 指正，[`Fork`后提通过`Pull Requst`贡献修改](https://github.com/oldratlee/translations/fork)
 - 如有文章理解上有疑问 或是 使用过程中碰到些疑惑，请随意:raised_hands:[提交`Issue`](https://github.com/oldratlee/translations/issues/new) ，一起学习交流讨论！
@@ -50,7 +50,7 @@ Chinese translations for classic IT resources.
 1. [`Python` Philosophy（`Python`哲学）翻译及简析](python-philosophy/README.md)  
     既有指明大是大非的理念，又有指导细节操作的准则；既有谆谆教导的推荐，也有声色俱厉的禁止。
 1. [`Java`的通用`I/O` `API`设计](generic-io-api-in-java-and-api-design/README.md)  
-    给出了一个通用`Java` `IO` `API`设计，更重要的是，给出了这个`API`设计本身的步骤和过程，这让`API`设计有些条理。文中示范了从 普通简单实现 整理成 正交分解、可复用、可扩展、高性能、无错误的`API`设计 的过程。这个很值得理解和学习！设计偏向是艺术，一个赏心悦目的设计，尤其是`API`设计，旁人看来多是妙手偶得的感觉，如果能有些章可循真是一件美事。给出 _**减少艺术的艺术工作量**_ 的方法的人是 **大师**。
+    给出了一个通用`Java` `IO` `API`设计，更重要的是给出了这个`API`设计本身的步骤和过程，这让`API`设计有些条理。文中示范了从 普通简单实现 整理成 正交分解、可复用、可扩展、高性能、无错误的`API`设计 的过程，这个过程是很值得理解和学习！设计偏向是艺术，一个赏心悦目的设计，尤其是`API`设计，旁人看来多是妙手偶得的感觉，如果能有些章可循真是一件美事。给出 _**减少艺术的艺术工作量**_ 的方法的人是 **大师**。
 1. [`API`设计原则 - `Qt`官网的设计实践总结](api-design-principles-from-qt/README.md)  
     `Qt`的设计水准在业界很有口碑，一致、易于掌握和强大的`API`是`Qt`最著名的优点之一。此文既是`Qt`官网上的`API`设计指导准则，也是`Qt`在`API`设计上的实践总结。虽然`Qt`用的是`C++`，但其中设计原则和思考是具有普适性的（如果你对`C++`还不精通，可以忽略与`C++`强相关或是过于细节的部分，仍然可以学习或梳理关于`API`设计最有价值的内容）。整个篇幅中有很多示例，是关于`API`设计一篇难得的好文章。
 1. [`GUI` & `CLI`原则](gui-and-cli-principles/README.md)  
@@ -73,7 +73,7 @@ Chinese translations for classic IT resources.
 # 并发
 
 1. [`Java` `Fork/Join`框架](a-java-fork-join-framework/README.md)  
-    _Doug Lea_ 大神关于`Java 7`引入的他写的`Fork/Join`框架的论文。[响应式编程](https://www.reactivemanifesto.org/zh-CN)（`Reactive Programming`/`RP`）作为一种范式在整个业界正在逐步受到认可和落地，是对过往系统的业务需求理解梳理之后对系统技术设计/架构模式的提升总结。`Java`作为一个成熟平台，对于趋势一向有些稳健的接纳和跟进能力，有着令人惊叹的生命活力：`Java 7`提供了`ForkJoinPool`，支持了`Java 8`提供的`Stream`，另外`Java 8`还提供了`Lamda`（有效地表达和使用`RP`需要`FP`的语言构件和理念）；有了前面的这些稳健但不失时机的准备，在`Java 9`中提供了面向`RP`的官方[`Flow API`](https://community.oracle.com/docs/DOC-1006738)，实际上是直接把[`Reactive Streams`](http://www.reactive-streams.org/)的接口加在`Java`标准库中，即[`Reactive Streams`规范](https://github.com/reactive-streams/reactive-streams-jvm#specification)转正了，`Reactive Streams`是`RP`的基础核心组件。`Flow API`标志着`RP`由集市式的自由探索阶段 向 教堂式的统一使用的转变。通过上面这些说明，可以看到`ForkJoinPool`的基础重要性。
+    _Doug Lea_ 大神关于`Java 7`引入的他写的`Fork/Join`框架的论文。[反应式编程](https://www.reactivemanifesto.org/zh-CN)（`Reactive Programming`/`RP`）作为一种范式在整个业界正在逐步受到认可和落地，是对过往系统的业务需求理解梳理之后对系统技术设计/架构模式的提升总结。`Java`作为一个成熟平台，对于趋势一向有些稳健的接纳和跟进能力，有着令人惊叹的生命活力：`Java 7`提供了`ForkJoinPool`，支持了`Java 8`提供的`Stream`，另外`Java 8`还提供了`Lamda`（有效地表达和使用`RP`需要`FP`的语言构件和理念）；有了前面的这些稳健但不失时机的准备，在`Java 9`中提供了面向`RP`的官方[`Flow API`](https://community.oracle.com/docs/DOC-1006738)，实际上是直接把[`Reactive Streams`](http://www.reactive-streams.org/)的接口加在`Java`标准库中，即[`Reactive Streams`规范](https://github.com/reactive-streams/reactive-streams-jvm#specification)转正了，`Reactive Streams`是`RP`的基础核心组件。`Flow API`标志着`RP`由集市式的自由探索阶段 向 教堂式的统一使用的转变。通过上面这些说明，可以看到`ForkJoinPool`的基础重要性。
 
 # `Git`
 

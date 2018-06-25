@@ -1,7 +1,7 @@
-原文链接：[Subversion UI Shootout](http://onlamp.com/pub/a/onlamp/2005/03/10/svn_uis.html "Subversion UI Shootout")  
+原文链接：[Subversion UI Shootout](http://onlamp.com/pub/a/onlamp/2005/03/10/svn_uis.html "Subversion UI Shootout")，2005-03-10  
 译文发在：[【译】GUI & CLI Principles](http://oldratlee.com/post/2012-11-04/gui-cli-principles)，2012-11-04
 
-### :apple: 译序
+### 🍎 译序 
 
 文章[Subversion UI Shootout](http://onlamp.com/pub/a/onlamp/2005/03/10/svn_uis.html "Subversion UI Shootout")比较了多个`GUI` `SVN`工具以及命令行的优劣。
 
@@ -12,7 +12,7 @@
 
 值得单独拿出来看看。这里翻译一下。
 
-PS：     
+PS：  
 交互思考有相通的之处，下面的几篇说了不错的话题，也可以看看：
 
 * [大众点评移动客户端的“轻”点评模式](http://ifredric.me/post/2012-10-31/dianping_test_2 "大众点评移动客户端的“轻”点评模式")
